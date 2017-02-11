@@ -18,4 +18,31 @@
     background-color: rgba(65, 65, 65, 0.8);
     margin-top: 50px;
     margin-bottom: 400px;
+    padding: 40px;
+    color: #fff;
+}
+
+.on-slider .box .item-left {
+    font-size: 34px;
+    top: 50px
+
+}
+
+@media (min-width: 991px) {
+    .on-slider .box .item-left {
+        top: 150px
+    }
+}
+
+.on-slider .box .item-right {
+    font-size: 20px;
+    top: 100px;
+    padding-left: 100px;
+}
+
+@media (min-width: 991px) {
+    .on-slider .box .item-right {
+        top: 360px;
+        padding-left: 70px;
+    }
 }
