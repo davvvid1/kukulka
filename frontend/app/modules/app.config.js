@@ -3,7 +3,8 @@
 
     function config($routeProvider, $locationProvider) {
         $routeProvider.when('/', {
-            templateUrl: 'modules/home/home.tpl.html'
+            templateUrl: 'modules/home/home.tpl.html',
+            controller: 'Home as home'
         });
 
         $routeProvider.otherwise({redirectTo: '/'});

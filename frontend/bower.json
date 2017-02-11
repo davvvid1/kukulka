@@ -4,7 +4,8 @@
     "angular": "1.6.2",
     "angular-route": "1.6.2",
     "angular-resource": "1.6.2",
-    "ideal-image-slider": "1.5.1",
-    "bootstrap": "4.0.0-alpha.6"
+    "bootstrap": "4.0.0-alpha.6",
+    "slider-pro": "1.2.2",
+    "tether": "1.4.0"
   }
 }
