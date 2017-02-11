@@ -1,0 +1,40 @@
+.menu-bar {
+    background: #353130;
+    font-family: 'georgia', 'palatino linotype', 'tahoma', 'arial';
+}
+
+.menu-bar .title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #B8AFA6;
+    font-size: 48px;
+    font-family: "Open Sans";
+}
+
+.menu-bar .title span {
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px 60px 15px 60px;
+}
+
+.menu-bar .item {
+    position: relative;
+    text-align: center;
+    color: #B8AFA6;
+    font-size: 25px;
+    font-family: "Open Sans";
+    padding: 10px 10px 26px;
+}
+
+.menu-bar .item span {
+    display: none;
+    font-size: 48px;
+    position: absolute;
+    top: -6px;
+    left: calc(50% - 22px)
+}
+
+.menu-bar .item:hover span {
+    display: inline;
+}

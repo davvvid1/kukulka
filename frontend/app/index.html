@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <title>Draft</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="modules/menuBar/menuBar.css"/>
 </head>
 
 <body ng-app="restaurant">
+
+<menu-bar></menu-bar>
 
 <ng-view></ng-view>
 
@@ -22,6 +27,7 @@
 
 <script src="modules/app.js"></script>
 <script src="modules/app.config.js"></script>
+<script src="modules/menuBar/menuBar.directive.js"></script>
 
 </body>
 </html>
