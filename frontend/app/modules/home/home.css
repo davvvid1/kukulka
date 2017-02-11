@@ -15,9 +15,8 @@
     min-width: 360px;
     max-width: 1000px;
     margin: auto;
-    background-color: rgba(65, 65, 65, 0.8);
     margin-top: 50px;
-    margin-bottom: 400px;
+    background-color: rgba(65, 65, 65, 0.8);
     padding: 40px;
     color: #fff;
 }
@@ -45,4 +44,8 @@
         top: 360px;
         padding-left: 70px;
     }
+}
+
+.angular-google-map-container {
+    height: 400px;
 }

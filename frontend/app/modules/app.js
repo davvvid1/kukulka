@@ -1,5 +1,5 @@
 (function () {
     'use strict';
 
-    angular.module('restaurant', ['ngRoute', 'ngResource']);
+    angular.module('restaurant', ['ngRoute', 'ngResource', 'uiGmapgoogle-maps']);
 })();

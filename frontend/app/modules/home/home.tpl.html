@@ -1,7 +1,6 @@
 <div class="view view-home">
 
     <div class="slider">
-
         <div class="slider-pro" id="my-slider">
             <div class="sp-slides">
                 <div class="sp-slide">
@@ -22,7 +21,6 @@
                 </div>
             </div>
         </div>
-
         <div class="on-slider">
             <div class=" box">
                 <div class="row">
@@ -37,6 +35,15 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <div class="map">
+        <ui-gmap-google-map center='home.map.center' zoom='home.map.zoom' options="home.map.options">
+            <ui-gmap-marker
+                    idKey="'marker'"
+                    coords="home.map.center"
+                    >
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
     </div>
 </div>
