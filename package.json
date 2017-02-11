@@ -1,0 +1,16 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "author": "Dawid Zegar",
+  "repository": {
+    "type": "git",
+    "url": "https://davvvid1@bitbucket.org/davvvid1/restarant.git"
+  },
+  "dependencies": {
+    "bower": "1.8.0"
+  },
+  "scripts": {
+    "start": "node ./backend/app",
+    "postinstall": "cd backend && npm install && cd ../frontend && ../node_modules/.bin/bower install"
+  }
+}
