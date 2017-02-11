@@ -13,7 +13,7 @@
             waitForLayers: true,
             fade: true,
             autoplay: true,
-            autoplayDelay: 10000,
+            autoplayDelay: 4000,
             autoplayOnHover: 'none',
             autoScaleLayers: false,
             responsive: false
