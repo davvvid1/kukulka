@@ -46,6 +46,20 @@
     }
 }
 
+.menu {
+    /*width: 800px;*/
+}
+
+.menu .item-left {
+    background-color: #E3E3E0;
+    height: 400px;
+}
+
+.menu .item-right {
+    background-color: #B8AFA6;;
+    height: 400px;
+}
+
 .angular-google-map-container {
     height: 400px;
 }

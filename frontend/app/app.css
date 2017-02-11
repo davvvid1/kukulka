@@ -1,4 +1,9 @@
 body {
-    background-color: #B8AFA6;
+    background-color: #353130;
     font-family: "Open Sans";
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }

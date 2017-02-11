@@ -1,15 +1,9 @@
-.menu-bar {
-    background: #353130;
-    font-family: 'georgia', 'palatino linotype', 'tahoma', 'arial';
-}
-
 .menu-bar .title {
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
     color: #B8AFA6;
     font-size: 32px;
-    font-family: "Open Sans";
 }
 
 .menu-bar .title span {
@@ -23,7 +17,6 @@
     text-align: center;
     color: #B8AFA6;
     font-size: 20px;
-    font-family: "Open Sans";
     padding: 0px 10px 18px;
 }
 
