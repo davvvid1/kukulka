@@ -8,6 +8,7 @@
     "bootstrap": "4.0.0-alpha.6",
     "slider-pro": "1.2.2",
     "tether": "1.4.0",
-    "angular-simple-logger": "0.1.7"
+    "angular-simple-logger": "0.1.7",
+    "angular-scroll": "1.0.0"
   }
 }

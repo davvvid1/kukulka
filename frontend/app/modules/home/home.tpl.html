@@ -1,6 +1,6 @@
 <div class="view view-home">
 
-    <div class="slider">
+    <div id="home" class="slider">
         <div class="slider-pro" id="main-slider">
             <div class="sp-slides">
                 <div class="sp-slide">
@@ -41,7 +41,7 @@
 
     <ng-include src="'modules/menu/menu.tpl.html'"></ng-include>
 
-    <div class="map">
+    <div id="contact" class="map">
         <ui-gmap-google-map center='home.map.center' zoom='home.map.zoom' options="home.map.options">
             <ui-gmap-marker idKey="'marker'" coords="home.map.center"></ui-gmap-marker>
         </ui-gmap-google-map>

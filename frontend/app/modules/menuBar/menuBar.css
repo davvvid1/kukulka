@@ -16,8 +16,20 @@
     position: relative;
     text-align: center;
     color: #B8AFA6;
-    font-size: 20px;
     padding: 0px 10px 18px;
+}
+
+.menu-bar .item:hover {
+    cursor: pointer;
+}
+
+.menu-bar .item a {
+    color: #B8AFA6;
+    font-size: 20px;
+}
+
+.menu-bar .item a:hover {
+    text-decoration: none;
 }
 
 .menu-bar .item span {
@@ -25,7 +37,8 @@
     font-size: 38px;
     position: absolute;
     top: -16px;
-    left: calc(50% - 18px)
+    left: calc(50% - 18px);
+    z-index: -1;
 }
 
 .menu-bar .item:hover span {
