@@ -33,6 +33,13 @@
     }
 }
 
+.on-slider .box .item-left .accent {
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    text-align: center;
+}
+
 .on-slider .box .item-right {
     font-size: 20px;
     top: 100px;
@@ -44,6 +51,11 @@
         top: 360px;
         padding-left: 70px;
     }
+}
+
+.on-slider .box .item-right .accent {
+    font-size: 50px;
+    padding-left: 60px;
 }
 
 .menu {
