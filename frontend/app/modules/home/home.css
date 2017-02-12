@@ -23,21 +23,20 @@
 
 .on-slider .box .item-left {
     font-size: 34px;
+    text-align: center;
     top: 50px
 
 }
 
 @media (min-width: 991px) {
     .on-slider .box .item-left {
-        top: 150px
+        top: 150px;
     }
 }
 
 .on-slider .box .item-left .accent {
     font-size: 50px;
     padding-bottom: 10px;
-    padding-right: 80px;
-    text-align: center;
 }
 
 .on-slider .box .item-right {
@@ -56,20 +55,6 @@
 .on-slider .box .item-right .accent {
     font-size: 50px;
     padding-left: 60px;
-}
-
-.menu {
-    /*width: 800px;*/
-}
-
-.menu .item-left {
-    background-color: #E3E3E0;
-    height: 400px;
-}
-
-.menu .item-right {
-    background-color: #B8AFA6;;
-    height: 400px;
 }
 
 .angular-google-map-container {

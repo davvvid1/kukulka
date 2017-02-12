@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-lg-6 item-left">
                         <div class="accent">___</div>
-                        <div>Restauracja "Nazwa lokalu" zaprasza na wysmienite dania!</div>
+                        <div class="title">Restauracja "Nazwa lokalu" zaprasza na wysmienite dania!</div>
                     </div>
                     <div class="col-lg-6 item-right">
                         <div class="accent">__</div>
@@ -39,16 +39,7 @@
         </div>
     </div>
 
-    <div class="menu">
-        <div class="row">
-            <div class="col-lg-6 item-left">
-                <span>Menu!</span>
-            </div>
-            <div class="col-lg-6 item-right">
-                <span>Lista potraw:</span>
-            </div>
-        </div>
-    </div>
+    <ng-include src="'modules/menu/menu.tpl.html'"></ng-include>
 
     <div class="map">
         <ui-gmap-google-map center='home.map.center' zoom='home.map.zoom' options="home.map.options">

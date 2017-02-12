@@ -1,0 +1,74 @@
+.menu .inner {
+    position: absolute;
+    text-align: center;
+    max-width: 650px;
+    /* width: 650px; */
+}
+
+.menu .inner .accent {
+    font-size: 50px;
+    color: #B8AFA6;
+}
+
+.menu .inner .title {
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.menu .inner .content {
+    padding-top: 10px
+}
+
+.menu .item-left {
+    height: 400px;
+    color: #B8AFA6;
+}
+
+.menu .item-left .inner {
+    right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.menu .item-left .accent {
+    padding-top: 50px;
+}
+
+.menu .item-left .title {
+    color: #fff;
+}
+
+.menu .item-right .inner {
+    left: 0px;
+}
+
+.menu .item-right {
+    background-color: #B8AFA6;
+    height: 400px;
+}
+
+.menu .item-right .inner .inner-box {
+    background-color: #CEC8C4;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu .item-right .inner .inner-box .accent {
+    color: #6d6760;
+}
+
+.menu .item-right .inner .inner-box .title {
+    color: #000;
+}
+
+.menu .item-right .inner .inner-box .content {
+    color: #43403a;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu .item-right .inner .inner-box .hack {
+    color: #CEC8C4;
+}
