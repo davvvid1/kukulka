@@ -3,8 +3,7 @@
 
     function homeController() {
 
-
-        $('#my-slider').sliderPro({
+        $('#main-slider').sliderPro({
             width: '100%',
             height: '800px',
             arrows: false,
@@ -19,7 +18,7 @@
             responsive: false
         });
 
-        var slider = $('#my-slider').data('sliderPro');
+        var slider = $('#main-slider').data('sliderPro');
 
         slider.resize();
 
