@@ -82,10 +82,23 @@
     color: #CEC8C4;
 }
 
-.menu .item-right .inner .inner-box .button {
+.menu .link {
     color: #000;
-    padding-top: 30px;
     font-size: 22px;
     text-decoration: underline;
+    padding-bottom: 30px;
 }
 
+.menu .link:before {
+    content: "> ";
+}
+
+.menu .link:after {
+    content: " <";
+}
+
+.menu .item-right .inner .inner-box .link {
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
