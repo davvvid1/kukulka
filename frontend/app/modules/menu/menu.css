@@ -89,18 +89,3 @@
     text-decoration: underline;
 }
 
-.menu-content {
-    position: relative;
-    height: 600px;
-    background-image: url("../../tmp/menu-background.jpg");
-    background-position: center;
-}
-
-.menu-content .slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(184, 175, 166, 0.5);
-}

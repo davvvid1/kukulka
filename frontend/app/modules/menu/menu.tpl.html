@@ -36,30 +36,13 @@
 
     <div class="menu-content" id="menu">
         <div class="slider">
-            <div class="slider-pro" id="menu-slider">
-                <div class="sp-slides">
-                    <!-- Slide 1 -->
-                    <div class="sp-slide">
-                        <img class="sp-image" src="tmp/sushi.jpg"/>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="sp-slide">
-                        <p style="color: white;">Lorem ipsum dolor sit amet</p>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="sp-slide">
-                        <div style="color: white;">
-                            <h3>Lorem ipsum dolor sit amet</h3>
-
-                            <p>consectetur adipisicing elit</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <dynamic-slider-bar
+                    ng-if="menu.show"
+                    slider-id="'menu-slider'"
+                    slides="menu.slides"
+                    control="menu.control"
+                    >
+            </dynamic-slider-bar>
         </div>
     </div>
-
-
 </div>
