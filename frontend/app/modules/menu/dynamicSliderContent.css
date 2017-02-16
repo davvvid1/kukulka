@@ -1,8 +1,15 @@
 .menu-content {
     position: relative;
-    height: 600px;
+    height: 0px;
     background-image: url("../../tmp/menu-background.jpg");
     background-position: center;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+.menu-visible {
+    height: 600px;
+    transition: height 1s;
 }
 
 .menu-content .slider {

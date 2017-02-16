@@ -13,14 +13,15 @@
         </div>
         <div class="col-lg-6 item-right">
             <div class="inner">
-                <div class="inner-box">
+                <div class="inner-box" ng-click="menu.toggleContent()">
                     <div class="accent">___</div>
                     <div class="title">Menu</div>
                     <div class="content">
                         Najlepsze dania
                     </div>
                     <div class="button">
-                        > Pokaż kartę <
+                        <span ng-hide="menu.contentVisible">> Pokaż kartę <</span>
+                        <span ng-show="menu.contentVisible">> Ukryj kartę <</span>
                     </div>
                     <div class="hack">
                         . . . . . . . . . . . . . . . . . .
@@ -34,14 +35,13 @@
         </div>
     </div>
 
-    <div class="menu-content" id="menu">
+    <div class="menu-content" id="menu" ng-class="{'menu-visible': menu.contentVisible}">
         <div class="slider">
             <dynamic-slider-bar
                     ng-if="menu.show"
                     slider-id="'menu-slider'"
                     slides="menu.slides"
-                    control="menu.control"
-                    >
+                    control="menu.control">
             </dynamic-slider-bar>
         </div>
     </div>

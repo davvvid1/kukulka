@@ -1,17 +1,15 @@
 (function () {
     'use strict';
 
-    function menuBarController() {
-        var ctrl = this;
-
-    }
-
     function menuBar() {
         return {
             restrict: 'E',
-            controller: ['$location', '$scope', menuBarController],
-            controllerAs: 'menuBar',
-            templateUrl: 'modules/menuBar/menuBar.tpl.html'
+            templateUrl: 'modules/menuBar/menuBar.tpl.html',
+            link: function (scope) {
+                scope.openMenuContent = function () {
+                    scope.$broadcast('open-menu-content');
+                }
+            }
         };
     }
 
