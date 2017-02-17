@@ -29,7 +29,7 @@
 .menu-content span {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 100px;
-    box-shadow: 0px 0px 62px 14px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 62px 14px rgba(255, 255, 255, 0.2);
 }
 
 .menu-content .accent {
@@ -48,13 +48,18 @@
     padding-top: 60px;
 }
 
+ul.leaders {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 ul.leaders li {
     clear: both;
 }
 
 ul.leaders li span:first-child {
     float: left;
-    padding: 0 .4em 0 0;
+    padding: 0 .4em .4em 0;
     margin: 0;
 }
 

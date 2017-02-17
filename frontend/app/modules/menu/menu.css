@@ -87,6 +87,11 @@
     font-size: 22px;
     text-decoration: underline;
     padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.menu .link:hover {
+    font-weight: bold;
 }
 
 .menu .link:before {
