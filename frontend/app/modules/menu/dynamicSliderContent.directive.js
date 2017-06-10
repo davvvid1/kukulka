@@ -34,8 +34,8 @@
                     slider.resize();
                 });
 
-                scope.gotoSlide = function gotoSlide() {
-                    slider.previousSlide();
+                scope.gotoSlide = function gotoSlide(index) {
+                    slider.gotoSlide(index)
                 };
             }
         };
