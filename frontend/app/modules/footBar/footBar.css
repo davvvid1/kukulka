@@ -1,8 +1,11 @@
 .foot-bar {
-    height: 100px;
-    color: #B8AFA6;
+    color: #ffffff;
     padding-top: 30px;
     transition: background-color 1s;
+}
+
+.column {
+    padding-bottom: 30px;
 }
 
 .foot-bar.highlight {

@@ -26,6 +26,8 @@
 .menu-bar .item a {
     color: #B8AFA6;
     font-size: 20px;
+    display: block;
+    width: 100%;
 }
 
 .menu-bar .item a:hover {
