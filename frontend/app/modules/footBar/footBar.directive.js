@@ -1,8 +1,17 @@
 (function () {
     'use strict';
 
-    function footBarController() {
+    function footBarController($scope, $timeout) {
         var ctrl = this;
+
+        $scope.$on('highlight-contact', function () {
+            $timeout(function () {
+                ctrl.isHighlighted = true;
+            }, 1000);
+            $timeout(function () {
+                ctrl.isHighlighted = false;
+            }, 1500);
+        })
 
     }
 

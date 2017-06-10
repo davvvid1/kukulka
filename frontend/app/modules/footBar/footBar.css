@@ -2,4 +2,9 @@
     height: 100px;
     color: #B8AFA6;
     padding-top: 30px;
+    transition: background-color 1s;
+}
+
+.foot-bar.highlight {
+    background-color: #ffffff;
 }

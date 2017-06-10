@@ -9,6 +9,9 @@
                 scope.openMenuContent = function () {
                     scope.$broadcast('open-menu-content');
                 }
+                scope.highlightContact = function () {
+                    scope.$broadcast('highlight-contact');
+                }
             }
         };
     }
