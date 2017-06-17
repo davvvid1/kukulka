@@ -3,7 +3,7 @@
 
     function menuController($scope, $timeout) {
         var ctrl = this;
-        ctrl.slides = [1];
+        ctrl.slides = [];
         ctrl.control = {};
 
 

@@ -60,6 +60,10 @@
     cursor: pointer;
 }
 
+.menu .item-right .inner .inner-box:hover .link {
+    font-weight: bold;
+}
+
 .menu .item-right .inner .inner-box:hover .hack {
     color: #ddd7d2;
 }
@@ -85,7 +89,6 @@
 .menu .link {
     color: #000;
     font-size: 22px;
-    text-decoration: underline;
     padding-bottom: 30px;
     cursor: pointer;
 }
@@ -106,4 +109,9 @@
     color: #000;
     padding-top: 30px;
     padding-bottom: 0px;
+}
+
+.menu .career {
+    background-color: #CEC8C4;
+    height: 200px;
 }

@@ -23,8 +23,8 @@
         slider.resize();
 
         this.map = {
-            center: {latitude: 50.0116191, longitude: 20.9906216},
-            zoom: 17,
+            center: {latitude: 50.0120949, longitude: 20.9820169},
+            zoom: 18,
             options: {
                 scrollwheel: false,
                 draggable: false,
