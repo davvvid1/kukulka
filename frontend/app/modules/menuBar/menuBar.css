@@ -30,6 +30,10 @@
     width: 100%;
 }
 
+.menu-bar .item a {
+    text-decoration: none;
+}
+
 .menu-bar .item a:hover {
     text-decoration: none;
 }
