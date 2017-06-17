@@ -1,0 +1,34 @@
+.career-view {
+    background-color: #CEC8C4;
+}
+
+.career-view .inner {
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.career-view .inner .accent {
+    font-size: 50px;
+    color: #6d6760;
+}
+
+.career-view .inner .title {
+    font-size: 32px;
+    padding-top: 10px;
+    color: #000;
+}
+
+.career-view .inner .content {
+    padding-top: 10px;
+    color: #43403a;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.career-view .inner .cv {
+    color: #000;
+}
