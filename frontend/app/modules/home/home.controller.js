@@ -5,7 +5,7 @@
 
         $('#main-slider').sliderPro({
             width: '100%',
-            height: '800px',
+            height: '1200px',
             arrows: false,
             buttons: false,
             touchSwipe: false,

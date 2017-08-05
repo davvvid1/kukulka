@@ -1,9 +1,12 @@
 .menu-bar .title {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     text-align: center;
-    color: #B8AFA6;
-    font-size: 32px;
+}
+
+.menu-bar .title img {
+    height: 280px;
+    width: auto;
 }
 
 .menu-bar .title span {
@@ -15,7 +18,7 @@
 .menu-bar .item {
     position: relative;
     text-align: center;
-    color: #B8AFA6;
+    color: #FFFFFF;
     padding: 0px 10px 18px;
 }
 
@@ -24,7 +27,7 @@
 }
 
 .menu-bar .item a {
-    color: #B8AFA6;
+    color: #FFFFFF;
     font-size: 20px;
     display: block;
     width: 100%;

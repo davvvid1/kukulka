@@ -19,7 +19,7 @@
                     sliderElement = element.find('#' + scope.sliderId);
                     sliderElement.sliderPro({
                         width: '100%',
-                        height: '600px',
+                        height: '1378',
                         arrows: true,
                         buttons: false,
                         touchSwipe: true,
