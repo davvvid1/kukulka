@@ -109,3 +109,14 @@
     padding-top: 30px;
     padding-bottom: 0px;
 }
+
+.temporary-logo-container {
+
+}
+
+.temporary-logo {
+    display: inherit;
+    margin: auto;
+    padding-top: 140px;
+    width: 320px;
+}
