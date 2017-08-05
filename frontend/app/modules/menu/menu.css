@@ -42,12 +42,12 @@
 }
 
 .menu .item-right {
-    background-color: #B8AFA6;
+    background-color: #444444;
     height: 400px;
 }
 
 .menu .item-right .inner .inner-box {
-    background-color: #CEC8C4;
+    background-color: #b5afac;
     height: 300px;
     margin-top: 50px;
     margin-left: 50px;
@@ -55,7 +55,7 @@
 }
 
 .menu .item-right .inner .inner-box:hover {
-    background-color: #ddd7d2;
+    background-color: #c7c1bd;
     cursor: pointer;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .menu .item-right .inner .inner-box:hover .hack {
-    color: #ddd7d2;
+    color: #c7c1bd;
 }
 
 .menu .item-right .inner .inner-box .accent {
@@ -82,7 +82,7 @@
 }
 
 .menu .item-right .inner .inner-box .hack {
-    color: #CEC8C4;
+    color: #b5afac;
 }
 
 .menu .link {
